@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.book-trip-section {
+    background: url('https://source.unsplash.com/1600x900/?travel,beach') no-repeat center center/cover;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.book-trip-section h2 {
+    font-size: 48px;
+    color: black; 
+    margin-bottom: 20px;
+}
+
+.book-trip-section p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: black; 
+}
+
+.book-trip-form {
+    display: inline-block;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.book-trip-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.book-trip-form input, 
+.book-trip-form select, 
+.book-trip-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.book-trip-form button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.book-trip-form button:hover {
+    background-color: #218838;
+}

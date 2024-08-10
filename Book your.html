@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Next Trip</title>
+ 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="book-trip-section">
+        <div class="container">
+            <h2>Book Your Next Trip</h2>
+            <p>Find the best deals on flights, hotels, and car rentals for your next adventure.</p>
+
+           
+            <form class="book-trip-form">
+                <label for="destination">Destination</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter destination" required>
+
+                <label for="checkin-date">Check-in Date</label>
+                <input type="date" id="checkin-date" name="checkin-date" required>
+
+                <label for="checkout-date">Check-out Date</label>
+                <input type="date" id="checkout-date" name="checkout-date" required>
+
+                <label for="guests">Guests</label>
+                <select id="guests" name="guests">
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="5">5 Guests</option>
+                    <option value="6">6 Guests</option>
+                </select>
+
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
