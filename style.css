@@ -51,12 +51,12 @@ body {
 }
 
 .book-trip-form button {
-    background-color: #28a745;
+    background-color: #e4bc0d;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 .book-trip-form button:hover {
-    background-color: #218838;
+    background-color:#d2e313;
 }
