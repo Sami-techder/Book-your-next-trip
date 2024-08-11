@@ -16,6 +16,7 @@ body {
     font-size: 48px;
     color: black; 
     margin-bottom: 20px;
+    font-style: italic;
 }
 
 .book-trip-section p {
